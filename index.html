@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>电商平台集合</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            text-decoration: none;
+            color: #ddd;
+        }
+
+        ul,ol,li{
+            list-style: noen;
+        }
+
+        body {
+            background: #f20c59;
+        }
+
+        .wrap {
+            display: flex;
+            display: -webkit-box;
+            display: -moz-box;
+            display: box;
+            display: -ms-flex-box;
+            display: flex-box;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-align-items: center;
+        }
+
+        .wrap:nth-child(2){
+            padding: 5px;
+        }
+
+        .wrap * {
+            display: block;
+            -webkit-box-flex: 1;
+            -moz-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+        }
+        .wrap li{
+            text-align: center;
+            color: blue;
+            padding-top: 5px;
+        }
+        .wrap iframe {
+            height: 94vh;
+            border: 5px solid #f20c59;
+        }
+    </style>
+</head>
+<body>
+    <ul class="wrap">
+        <li><a href="https://www.gome.com.cn/" target="_blank">国美</a></li>
+        <li><a href="https://m.jd.com/" target="_blank">京东</a></li>
+        <li><a href="https://m.suning.com/" target="_blank">苏宁</a></li>
+        <li><a href="https://h5.m.taobao.com/" target="_blank">淘宝</a></li>
+    </ul>
+    <div class="wrap">
+        <iframe src="https://www.gome.com.cn/" frameborder="0"></iframe>
+        <iframe src="https://m.jd.com/" frameborder="0"></iframe>
+        <iframe src="https://m.suning.com/" frameborder="0"></iframe>
+        <iframe src="https://h5.m.taobao.com/" frameborder="0"></iframe>
+    </div>
+</body>
+</html>
